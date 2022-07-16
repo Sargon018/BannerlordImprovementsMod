@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorkshopTypes>
+    <WorkshopType id="artisans" name="{=VHLUHBaT}Artisans" equipment_cost="1000000" frequency="0" jobname="{=qfzkMuLj}Artisan" isHidden="true" description="{=AfiEQPky}Every town has a few craftsman. Someone has to make everyday stuff for everyday people and mosts do it themselves.">
+        <Meshes sign_mesh_name="shop_sign_merchantbakery" shop_prop_mesh_name_1="shop_prop_merchantflour_a" shop_prop_mesh_name_2="shop_prop_merchantflour_b" shop_prop_mesh_name_3_1="shop_prop_merchantflour_c" shop_prop_mesh_name_4="Shop_prop_merchantbakery_d" shop_prop_mesh_name_5="Shop_prop_merchantbakery_e" shop_prop_mesh_name_6="Shop_prop_merchantbakery_f" />
+        <Production conversion_speed="0.1"> 
+            <Inputs> 
+              <Input input_item="grape" /> 
+            </Inputs> 
+            <Outputs> 
+              <Output output="ItemCategory.wine" output_count="1" /> 
+            </Outputs> 
+          </Production>
+    </WorkshopType>
+    <WorkshopType id="wine_press" name="{=uy2mSmw3}Wine Press" frequency="2" equipment_cost="2000" jobname="{=PdvjpThP}Vintner" description="{=aIUXMvjS}Winery buys grapes for the market and produces wine which is always in demand all around Calradia."> 
+        <Meshes sign_mesh_name="shop_sign_merchantwinery" shop_prop_mesh_name_1="shop_prop_merchantwinery_a" shop_prop_mesh_name_2="shop_prop_merchantwinery_b" shop_prop_mesh_name_3_1="shop_prop_merchantwinery_c" shop_prop_mesh_name_4="shop_prop_merchantwinery_d" shop_prop_mesh_name_5="shop_prop_merchantwinery_e" shop_prop_mesh_name_6="shop_prop_merchantwinery_f" /> 
+        <Production conversion_speed="2"> 
+          <Inputs> 
+            <Input input_item="grape" /> 
+          </Inputs> 
+          <Outputs> 
+            <Output output="ItemCategory.wine" output_count="2" /> 
+          </Outputs> 
+        </Production> 
+      </WorkshopType>
+</WorkshopTypes>

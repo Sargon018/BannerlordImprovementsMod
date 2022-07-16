@@ -1,0 +1,41 @@
+<Module>
+    <Name value="Bannerlord Improvements" />
+    <Id value="BannerlordImprovements" />
+    <Version value="v1.3.0" />
+    <SingleplayerModule value="true" />
+    <MultiplayerModule value="false" />
+    <DependedModules>
+        <DependedModule Id="Native" />
+        <DependedModule Id="SandBoxCore" />
+        <DependedModule Id="Sandbox" />
+        <DependedModule Id="CustomBattle" />
+        <DependedModule Id="StoryMode" />
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="BannerlordImprovements" />
+            <DLLName value="BannerlordImprovements.dll" />
+            <SubModuleClassType value="BannerlordImprovements.MySubModule" />
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
+    <Xmls>
+        <XmlNode>
+            <XmlName id="WorkshopTypes" path="workshops_modify" />
+            <IncludedGameTypes>
+                <GameType value="Campaign" />
+                <GameType value="CampaignStoryMode" />
+            </IncludedGameTypes>
+        </XmlNode>
+        <XmlNode>
+            <XmlName id="Items" path="trade_modify" />
+            <IncludedGameTypes>
+                <GameType value="Campaign" />
+                <GameType value="CampaignStoryMode" />
+            </IncludedGameTypes>
+        </XmlNode>
+    </Xmls>
+</Module>

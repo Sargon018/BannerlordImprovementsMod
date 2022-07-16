@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Item id="wine" name="{=ELsDFwAD}Wine" mesh="amphora_slim" item_category="wine" IsFood="true" value="550" weight="10" Type="Goods">
+        <ItemComponent>
+            <Trade morale_bonus="3" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+    </Item>
+</Items>
