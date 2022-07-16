@@ -1,9 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-    <Item id="wine" name="{=ELsDFwAD}Wine" mesh="amphora_slim" item_category="wine" IsFood="true" value="550" weight="10" Type="Goods">
+    <Item id="wool" name="{=WVqaRKUm}Wool" mesh="merchandise_wool" item_category="wool" value="60" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="silver" name="{=9X2l53vY}Silver Ore" mesh="silver_ore" item_category="silver" value="195" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="jewelry" name="{=yQTBY9ie}Jewelry" mesh="bd_sturgia_statue" item_category="jewelry" value="1000" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="salt" name="{=IK2IPJi1}Salt" mesh="merchandise_salt" item_category="salt" value="60" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="spice" name="{=1jqxlEkT}Spice" mesh="spice_sack" value="600" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="cotton" name="{=Vqu67a3b}Raw Silk" mesh="merchandise_raw_silk" item_category="cotton" value="120" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="flax" name="{=xsu6bPTv}Flax" mesh="merchandise_flax" item_category="flax" value="20" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="clay" name="{=Zwb65ufG}Clay" mesh="merchandise_clay" item_category="clay" value="30" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="pottery" name="{=awQrcrt2}Pottery" mesh="merchandise_pottery" item_category="pottery" value="300" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="linen" name="{=DvGueBrU}Linen" mesh="merchandise_linen" item_category="linen" value="250" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="leather" name="{=ufnnUxKb}Leather" mesh="merchandise_leather_a" item_category="leather" value="300" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="velvet" name="{=O8TpGSDA}Velvet" mesh="merchandise_velvet" item_category="velvet" value="1000" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="cheese" name="{=WSk5Sibs}Cheese" mesh="merchandise_cheese_b" item_category="cheese" IsFood="true" value="60" weight="10" Type="Goods">
         <ItemComponent>
-            <Trade morale_bonus="3" />
+          <Trade morale_bonus="1" />
         </ItemComponent>
         <Flags Civilian="true" />
-    </Item>
+      </Item>
+      <Item id="butter" name="{=VbL6GFmy}Butter" mesh="merchandise_cheese_b" item_category="butter" IsFood="true" value="38" weight="10" Type="Goods">
+        <ItemComponent>
+          <Trade morale_bonus="1" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+        <Flags />
+      </Item>
+      <Item id="fish" name="{=QGaIYQpg}Fish" mesh="merchandise_fish_a" item_category="fish" IsFood="true" value="23" weight="10" Type="Goods">
+        <ItemComponent>
+          <Trade morale_bonus="1" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="grape" name="{=ZgVVPGTb}Grapes" mesh="kitchen_basket_grape_b" item_category="grape" IsFood="true" value="30" weight="10" Type="Goods">
+        <ItemComponent>
+          <Trade morale_bonus="1" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="date_fruit" name="{=NtsdmmW9}Dates" mesh="bd_barrel_a" item_category="date_fruit" IsFood="true" value="75" weight="10" Type="Goods">
+        <ItemComponent>
+          <Trade morale_bonus="2" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="olives" name="{=45kZUyjh}Olives" mesh="bd_barrel_a" item_category="olives" IsFood="true" value="45" weight="10" Type="Goods">
+        <ItemComponent>
+          <Trade morale_bonus="2" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="beer" name="{=HiSzYWeh}Beer" mesh="bd_barrel_a" item_category="beer" IsFood="true" value="200" weight="10" Type="Goods">
+        <ItemComponent>
+          <Trade morale_bonus="2" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="wine" name="{=ELsDFwAD}Wine" mesh="amphora_slim" item_category="wine" IsFood="true" value="400" weight="10" Type="Goods">
+        <ItemComponent>
+          <Trade morale_bonus="3" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="oil" name="{=lULBZ714}Oil" mesh="amphora_slim" item_category="oil" IsFood="true" value="450" weight="10" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
+      <Item id="fur" name="{=ADJBbfbQ}Fur" mesh="hung_fur_b" item_category="fur" value="180" weight="15" Type="Goods">
+        <Flags Civilian="true" />
+      </Item>
 </Items>
